@@ -1,0 +1,24 @@
+# Node modules
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Output folders
+dist
+build
+
+# Environment files
+.env
+.env.*          # ignore .env.production, .env.staging, etc.
+
+# TypeScript artifacts
+*.tsbuildinfo
+
+# OS / editor stuff
+.DS_Store
+.vscode
+.idea
+
+# Swagger static output (if generated)
+swagger-output.json
+swagger.json
